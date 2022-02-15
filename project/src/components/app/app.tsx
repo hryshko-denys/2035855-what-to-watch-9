@@ -1,4 +1,4 @@
-import MainComponent from '../main-component/MainComponent';
+import MainComponent from '../main-component/main-component';
 
 type DataType = {
   genre: string;

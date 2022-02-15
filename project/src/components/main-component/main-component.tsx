@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import FilmCard from '../film-card/FilmCard';
+import FilmCard from '../film-card/film-card';
 
 type DataType = {
   genre: string;

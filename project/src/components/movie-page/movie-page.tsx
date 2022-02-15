@@ -1,4 +1,4 @@
-function MoviePageInList(): JSX.Element {
+function MoviePage(): JSX.Element {
   return (
     <>
       <section className="film-card film-card--full">
@@ -60,8 +60,8 @@ function MoviePageInList(): JSX.Element {
                   className="btn btn--list film-card__button"
                   type="button"
                 >
-                  <svg viewBox="0 0 18 14" width="18" height="14">
-                    <use xlinkHref="#in-list"></use>
+                  <svg viewBox="0 0 19 20" width="19" height="20">
+                    <use xlinkHref="#add"></use>
                   </svg>
                   <span>My list</span>
                 </button>
@@ -123,7 +123,7 @@ function MoviePageInList(): JSX.Element {
 
                 <p>
                   Gustave prides himself on providing first-className service to
-                  &apos;s guests, including satisfying the sexual needs of
+                  the hotel&apos;s guests, including satisfying the sexual needs of
                   the many elderly women who stay there. When one of Gustave&apos;s
                   lovers dies mysteriously, Gustave finds himself the recipient
                   of a priceless painting and the chief suspect in her murder.
@@ -234,4 +234,4 @@ function MoviePageInList(): JSX.Element {
   );
 }
 
-export default MoviePageInList;
+export default MoviePage;
